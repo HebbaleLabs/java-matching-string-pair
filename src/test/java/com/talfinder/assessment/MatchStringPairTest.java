@@ -36,6 +36,10 @@ public class MatchStringPairTest {
             "08W","QGJ","NDS","67U","9YU","1KO","Z58","JYM","JWX","A45","OV4","8VG","UHV","1AX","WBQ","GAV","QS0","Z99","MM7",
             "J4T","XZK","NHR","8K1","W8O","YC0","V57","NT7","ZMI","UKV","485","P18","HVM","PSG","EE0","M1U","TFR","XQN","ZL6",
             "T19","KDM","YBU","YC7","G0L","FYD","U1T"}, "LGW1DP", false},
+        {new String[] {"A", "A", "B", "F"}, "AF", true},
+        {new String[] {"P", "Q", "P", "V"}, "QO", false},
+        {new String[] {"H", "R", "O", "P", "R"}, "RP", true},
+        {new String[] {"A", "L", "L", "H"}, "ALLH", false},
     });
   }
 
